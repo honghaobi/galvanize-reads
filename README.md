@@ -8,10 +8,10 @@ Sign in As An Administrator Shown Below to make CRUD actions:
 (click the admin logo on the top right corner to grant/remove admin permissions)
 
 Name: Henry
+
 Email: henry@yolo.com
+
 Password: YoloSwag
-
-
 
 Background
 Galvanize Reads is a book catalog service that stores a list of recommended technology books. You are building a web app for them. It should allow you to:
