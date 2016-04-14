@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 var parse = require('csv-parse');
-var knex = require('../db/knex');
+var knex = require('./db/knex');
 
 function Authors(){ return knex('authors');}
 function Books(){return knex('books');}
