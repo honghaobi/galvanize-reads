@@ -2,32 +2,4 @@ extends layout
 
 block content
 
-  .orbit(role='region', aria-label='Favorite Book Pictures', data-orbit='')
-    ul.orbit-container
-      button.orbit-previous
-        span.show-for-sr Previous Slide
-        | ◀︎
-      button.orbit-next
-        span.show-for-sr Next Slide
-        | ▶︎
-      li.is-active.orbit-slide
-        img.thumbnail.orbit-image(src='images/l1.jpg', alt='Books')
-        figcaption.orbit-caption I Love Books!
-      li.orbit-slide
-        img.thumbnail.orbit-image(src='images/l2.jpg', alt='Books')
-        figcaption.orbit-caption I Love Reading Books!
-      li.orbit-slide
-        img.thumbnail.orbit-image(src='images/l3.jpg', alt='Books')
-        figcaption.orbit-caption I Love Reading Javascript Books!
-      li.orbit-slide
-        img.thumbnail.orbit-image(src='images/l4.jpg', alt='Books')
-        figcaption.orbit-caption I Love Reading Javascript Books and Eating Tacos!
-    nav.orbit-bullets
-      button.is-active(data-slide='0')
-        span.show-for-sr First slide details.
-      button(data-slide='1')
-        span.show-for-sr Second slide details.
-      button(data-slide='2')
-        span.show-for-sr Third slide details.
-      button(data-slide='3')
-        span.show-for-sr Fourth slide details.
+  img.landing(src='images/land.jpg', alt='Books')
