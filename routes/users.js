@@ -17,7 +17,11 @@ router.get('/new', function(req, res, next) {
 
 router.post('/new/signup', function(req, res, next) {
   users.createUser(req.body, (err, data) => {
-    res.redirect('/books');
+    if (err) {
+      res.redirect('/new');
+    } else {
+      res.redirect('/books');
+    }
   });
 });
 
