@@ -21,6 +21,7 @@
     "method-override": "^2.3.5",
     "morgan": "~1.6.1",
     "parse": "^1.8.1",
+    "passport-google-oauth": "^1.0.0",
     "pg": "^4.5.2",
     "serve-favicon": "~2.3.0"
   }
